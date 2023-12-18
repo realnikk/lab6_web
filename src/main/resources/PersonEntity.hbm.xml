@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="org.example.entities.PersonEntity" table="person" schema="lab8">
+        <id name="id">
+            <column name="id" sql-type="varchar(45)" length="45"/>
+        </id>
+        <property name="surname">
+            <column name="surname" sql-type="varchar(45)" length="45"/>
+        </property>
+        <property name="forename">
+            <column name="forename" sql-type="varchar(45)" length="45"/>
+        </property>
+        <property name="patronymic">
+            <column name="patronymic" sql-type="varchar(45)" length="45"/>
+        </property>
+        <property name="dob">
+            <column name="DOB" sql-type="date"/>
+        </property>
+        <property name="sex">
+            <column name="sex" sql-type="tinyint"/>
+        </property>
+        <property name="passportSeries">
+            <column name="passport_series" sql-type="varchar(45)" length="45"/>
+        </property>
+        <property name="passportNumber">
+            <column name="passport_number" sql-type="varchar(45)" length="45"/>
+        </property>
+        <property name="city">
+            <column name="city" sql-type="varchar(45)" length="45"/>
+        </property>
+        <property name="address">
+            <column name="addres" sql-type="varchar(45)" length="45"/>
+        </property>
+        <property name="phoneHome">
+            <column name="phone_home" sql-type="varchar(45)" length="45"/>
+        </property>
+        <property name="phoneMobile">
+            <column name="phone_mobile" sql-type="varchar(45)" length="45"/>
+        </property>
+        <property name="citizenship">
+            <column name="citizenship" sql-type="varchar(45)" length="45"/>
+        </property>
+        <property name="dutyBound">
+            <column name="duty_bound" sql-type="tinyint"/>
+        </property>
+    </class>
+</hibernate-mapping>

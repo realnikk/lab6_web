@@ -1,0 +1,16 @@
+<person>
+    <id>562</id>
+    <surname>Peskov</surname>
+    <forename>Nikita</forename>
+    <patronymic>Aleksandrovich</patronymic>
+    <dob>2004-01-06</dob>
+    <sex>1</sex>
+    <passportSeries>PD4</passportSeries>
+    <passportNumber>487785542001</passportNumber>
+    <city>Minsk</city>
+    <address>Zolotaya Gorka, 11</address>
+    <phoneHome>8532467</phoneHome>
+    <phoneMobile>4796426</phoneMobile>
+    <citizenship>belarussian</citizenship>
+    <dutyBound>0</dutyBound>
+</Person>
